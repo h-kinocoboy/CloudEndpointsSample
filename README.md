@@ -147,7 +147,7 @@ $ gcloud app deploy app.yaml --project=YOUR-CLIENT-PROJECT-ID
 ```
 
 Your client app is now deployed at https://YOUR-CLIENT-PROJECT-ID.appspot.com. When you access https://YOUR-CLIENT-PROJECT-ID.appspot.com, your client calls your server project API using
-the client's service account.
+the client's service account.   
 
 ### Using the ID token client (no key file needed)
 

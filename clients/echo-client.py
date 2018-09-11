@@ -29,7 +29,7 @@ def make_request(host, api_key, message):
         'key': api_key
     }
     body = {
-        'message': message
+        'message': message,
     }
 
     response = requests.post(url, params=params, json=body)
