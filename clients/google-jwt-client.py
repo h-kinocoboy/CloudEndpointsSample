@@ -87,7 +87,7 @@ if __name__ == '__main__':
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument(
-        'host', help='Your API host, e.g. https://your-project.appspot.com.')
+        'host', help='Your API host, e.g. https://biz-truedata-kinoshita-test.appspot.com.')
     parser.add_argument(
         'api_key', help='Your API key.')
     parser.add_argument(

@@ -44,7 +44,7 @@ spec:
         args: [
           "--http_port=8081",
           "--backend=127.0.0.1:8080",
-          "--service=SERVICE_NAME",
+          "--service=echo-api.endpoints.biz-truedata-kinoshita-test.cloud.goog",
           "--rollout_strategy=managed",
         ]
       # [END esp]

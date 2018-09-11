@@ -4,7 +4,7 @@ info:
   description: "A simple Google Cloud Endpoints API example."
   title: "Endpoints Example"
   version: "1.0.0"
-host: "echo-api.endpoints.YOUR-PROJECT-ID.cloud.goog"
+host: "echo-api.endpoints.biz-truedata-kinoshita-test.cloud.goog"
 # [END swagger]
 consumes:
 - "application/json"
@@ -153,7 +153,7 @@ securityDefinitions:
     authorizationUrl: ""
     flow: "implicit"
     type: "oauth2"
-    x-google-issuer: "https://securetoken.google.com/YOUR-PROJECT-ID"
+    x-google-issuer: "https://securetoken.google.com/biz-truedata-kinoshita-test"
     x-google-jwks_uri: "https://www.googleapis.com/service_accounts/v1/metadata/x509/securetoken@system.gserviceaccount.com"
-    x-google-audiences: "YOUR-PROJECT-ID"
+    x-google-audiences: "biz-truedata-kinoshita-test"
   # [END firebaseAuth]
